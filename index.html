@@ -251,27 +251,37 @@
             <li class="team-list__item">
               <picture class="team-list__picture">
                 <source
-                  srcset="./images/team_1.jpg"
+                  media="(min-width: 767px)"
+                  srcset="
+                    ./images/team_1_bg.jpg    1x,
+                    ./images/team_1_bg@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/team_1_md.jpg    1x,
+                    ./images/team_1_md@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
                   media="(max-width: 479px)"
-                  sizes=""
-                />
-                <source
-                  srcset="https://picsum.photos/id/237/800/400"
-                  media="(min-width: 767px)"
-                />
-                <source
-                  srcset="https://picsum.photos/id/237/800/400"
-                  media="(min-width: 767px)"
+                  srcset="
+                    ./images/team_1_sm.jpg    1x,
+                    ./images/team_1_sm@2x.jpg 2x
+                  "
+                  type="image/jpg"
                 />
                 <img
                   class="team-list__img"
                   src="./images/team_1_sm.jpg"
                   alt="Участник команды №1"
-                  width="270"
-                  height="260"
+                  width="100%"
+                  loading="lazy"
                 />
               </picture>
-
               <div class="team-list__persona">
                 <h3 class="team-list__name">Игорь Демьяненко</h3>
                 <p class="team-list_job" lang="en">Designer</p>
@@ -324,13 +334,36 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img
-                class="team-list__img"
-                src="./images/team_2.jpg"
-                alt="Участник команды №2"
-                width="270"
-                height="260"
-              />
+              <picture class="team-list__picture">
+                <source
+                  media="(min-width: 767px)"
+                  srcset="
+                    ./images/team_2_bg.jpg    1x,
+                    ./images/team_2_bg@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/team_2_md.jpg    1x,
+                    ./images/team_2_md@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 479px)"
+                  srcset="
+                    ./images/team_2_sm.jpg    1x,
+                    ./images/team_2_sm@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team-list__img"
+                  src="./images/team_2_sm.jpg"
+                  alt="Участник команды №2"
+                  width="100%"
+                  loading="lazy"
+                />
+              </picture>
               <div class="team-list__persona">
                 <h3 class="team-list__name">Ольга Репина</h3>
                 <p class="team-list_job" lang="en">Frontend Developer</p>
@@ -383,13 +416,36 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img
-                class="team-list__img"
-                src="./images/team_3.jpg"
-                alt="Участник команды №3"
-                width="270"
-                height="260"
-              />
+              <picture class="team-list__picture">
+                <source
+                  media="(min-width: 767px)"
+                  srcset="
+                    ./images/team_3_bg.jpg    1x,
+                    ./images/team_3_bg@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/team_3_md.jpg    1x,
+                    ./images/team_3_md@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 479px)"
+                  srcset="
+                    ./images/team_3_sm.jpg    1x,
+                    ./images/team_3_sm@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team-list__img"
+                  src="./images/team_3_sm.jpg"
+                  alt="Участник команды №3"
+                  width="100%"
+                  loading="lazy"
+                />
+              </picture>
               <div class="team-list__persona">
                 <h3 class="team-list__name">Николай Тарасов</h3>
                 <p class="team-list_job" lang="en">Marketing</p>
@@ -442,13 +498,36 @@
               </div>
             </li>
             <li class="team-list__item">
-              <img
-                class="team-list__img"
-                src="./images/team_4.jpg"
-                alt="Участник команды №4"
-                width="270"
-                height="260"
-              />
+              <picture class="team-list__picture">
+                <source
+                  media="(min-width: 767px)"
+                  srcset="
+                    ./images/team_4_bg.jpg    1x,
+                    ./images/team_4_bg@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/team_4_md.jpg    1x,
+                    ./images/team_4_md@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(max-width: 479px)"
+                  srcset="
+                    ./images/team_4_sm.jpg    1x,
+                    ./images/team_4_sm@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="team-list__img"
+                  src="./images/team_4_sm.jpg"
+                  alt="Участник команды №4"
+                  width="100%"
+                  loading="lazy"
+                />
+              </picture>
               <div class="team-list__persona">
                 <h3 class="team-list__name">Михаил Ермаков</h3>
                 <p class="team-list_job" lang="en">UI Designer</p>

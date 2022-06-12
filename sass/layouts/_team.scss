@@ -2,6 +2,8 @@
     background-color: $background-secondary;
     padding-top: $bottoms;
     padding-bottom: $bottoms;
+    margin-left: auto;
+    margin-right: auto;
 
     @media screen and (min-width: 768px) {
         padding-top: $bottoms-bg;
@@ -18,8 +20,6 @@
     letter-spacing: 0.03em;
 
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
 
     @media screen and (min-width: 768px) {
         font-size: 36px;
@@ -42,8 +42,7 @@
 }
 
 .team-list__item {
-    width: 450px;
-    height: 622px;
+    width: 100%;
     margin-bottom: $bottoms;
     background-color: $text-white;
     box-shadow: $shadow-set1;
@@ -51,14 +50,12 @@
 
 
     @media screen and (min-width:480px) {
-            width: 354px;
-            height: 536px;
             margin-bottom: 0;
+            width: calc((100% - 30px) / 2);
     }
 
     @media screen and (min-width:768px) {
-        width: 270px;
-        height: 428px;
+            width: calc((100% - 90px) / 4);
     }
 }
 
@@ -88,3 +85,4 @@
 
     margin-bottom: 16px;
 }
+
