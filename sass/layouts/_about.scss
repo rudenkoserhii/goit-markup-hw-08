@@ -1,5 +1,9 @@
 .about {
     padding-bottom: $bottoms;
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
 
 .about-title {
@@ -15,6 +19,10 @@
 
 .about-list {
     display: flex;
+gap: 30px;
+}
+
+.about-list__picture {
 }
 
 .about-list__item {
@@ -22,12 +30,7 @@
 
     position: relative;
 
-    margin-right: $right;
-
-
-    &:last-child {
-    margin-right: 0;
-    }
+width: calc((100% - 60) / 3);
 }
 
 .about-item__text {

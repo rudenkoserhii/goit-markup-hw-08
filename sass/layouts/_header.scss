@@ -1,53 +1,134 @@
 .header__container {
+    position: relative;
+
     display: flex;
     align-items: center;
 }
 
 .header {
     border-bottom: $border-set4;
+    height: 60px;
+
+    @media screen and (min-width: 480px) {
+        height: 80px;
+    }
 }
 
+.nav-contacts {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 480px;
+    height: 796px;
+
+    background-color: $text-white;
+    
+    @media screen and (min-width: 480px) {
+        position: static;
+
+        flex-direction: row;
+
+        height: 80px;
+        margin-left: auto;
+    }
+
+}
 
 .header-contacts {
-    display: flex;
-    align-items: center;
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    @media screen and (min-width: 480px) {
+        flex-direction: column;        }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+
+        gap: 30px;
+    }
 }
 
 .header-contacts__item {
-    margin-right: 50px;
+    margin-bottom: 32px;
 
-    &:last-child {
-        margin-right: 0;
+    display: flex;
+    align-items: center;
+    
+    color: $text-blue;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+
+    &:first-child {
+        font-size: 24px;
+
+        color: $text-main;
+    }
+
+    @media screen and (min-width: 480px) {
+        margin-bottom: 10px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
     }
 }
 
 
 .header-contacts__link {
-    display: flex;
-    align-items: center;
+    color: currentColor;
 
-    color: $text-main;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
 
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
+        @media screen and (min-width: 480px) {
+        }
 
-    transition: color $timing-function-main;
+        @media screen and (min-width: 768px) {
+            color: $text-main;
+            font-size: 14px;
+            line-height: 1.14;
 
-    &:hover,
-    &:focus {
-        color: $text-blue;
+            padding-top: 32px;
+            padding-bottom: 32px;
 
-        transition: color $timing-function-main;
-    }
+            transition: color $timing-function-main;
+    
+            &:hover,
+            &:focus {
+                color: $text-blue;
+    
+                transition: color $timing-function-main;
+            }
+        }
 }
 
 
 .header-contacts__icon {
-    margin-right: 10px;
 
-    fill: currentColor;
+    @media screen and (max-width: 479px) {
+            display: none;
+        }
+    
+    @media screen and (min-width: 480px) {
+        margin-right: 8px;
+                    
+        fill: currentColor;
+    }
+    
+    @media screen and (min-width: 768px) {
+        margin-right: 10px;
+    }
+        
 }
