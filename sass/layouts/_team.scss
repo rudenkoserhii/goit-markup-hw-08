@@ -2,33 +2,63 @@
     background-color: $background-secondary;
     padding-top: $bottoms;
     padding-bottom: $bottoms;
+
+    @media screen and (min-width: 768px) {
+        padding-top: $bottoms-bg;
+        padding-bottom: $bottoms-bg;
+    }
 }
 
 .team-title {
     color: $text-secondary;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28x;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 768px) {
+        font-size: 36px;
+    }
 }
 
-.team-list {
+    .team-list {
+        gap: 30px;
+        margin-left: auto;
+        margin-right: auto;
+
+@media screen and (min-width: 480px) {
     display: flex;
+    flex-wrap: wrap;
+    }
+@media screen and (min-width: 768px) {
+    flex-wrap: nowrap;
+}
+
 }
 
 .team-list__item {
-    margin-right: $right;
-    width: 270px;
-    height: 428px;
+    width: 450px;
+    height: 622px;
+    margin-bottom: $bottoms;
     background-color: $text-white;
     box-shadow: $shadow-set1;
     border-radius: 0px 0px 4px 4px;
 
-    &:last-child {
-        margin-right: 0;
+
+    @media screen and (min-width:480px) {
+            width: 354px;
+            height: 536px;
+            margin-bottom: 0;
+    }
+
+    @media screen and (min-width:768px) {
+        width: 270px;
+        height: 428px;
     }
 }
 
