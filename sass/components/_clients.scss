@@ -1,0 +1,60 @@
+.clients {
+    padding-top: $bottoms;
+    padding-bottom: $bottoms;
+}
+
+.clients-title {
+    color: $text-secondary;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.clients-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 92px;
+    padding: 16 32;
+    border: 1px solid var(--icon-cl);
+    border-radius: 4px;
+
+    color: var(--icon-cl);
+
+    transition: color $timing-function-main,
+        border-color $timing-function-main;
+
+    &:hover,
+    &:focus {
+        color: $text-blue;
+        border: $border-set5;
+
+        transition: color $timing-function-main,
+            border-color $timing-function-main;
+    }
+
+    &:hover .clients-list__icon,
+    &:focus .clients-list__icon{
+        fill: $text-blue;
+
+        transition: fill $timing-function-main,
+    }
+}
+
+.clients-list__icon {
+    fill: $color-icons;
+}
