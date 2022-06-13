@@ -6,6 +6,8 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
 
+    white-space: nowrap;
+
     &--black {
         color: $text-black;
     }
@@ -14,5 +16,6 @@
         color: $text-white;
         display: inline-block;
         margin-bottom: 20px;
+
     }
 }

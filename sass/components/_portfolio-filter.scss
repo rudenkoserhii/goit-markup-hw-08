@@ -1,9 +1,21 @@
 .btns-list {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 480px) {
+        flex-wrap: nowrap;
+        justify-content: center;
+
+        margin-bottom: 14px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 50px;
+    }
 }
 
 .btns-list__item {
@@ -11,6 +23,10 @@
 
     &:last-child {
         margin-right: 0;
+    }
+
+    @media screen and (max-width: 479px) {
+        margin-bottom: 30px;
     }
 }
 
@@ -24,6 +40,7 @@
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    white-space: nowrap;
 
     border-radius: 4px;
     border: 0ch;
