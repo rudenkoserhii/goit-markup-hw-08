@@ -7,16 +7,27 @@
 
 .footer__container {
     display: flex;
-    align-items: baseline;
     justify-content: center;
+    flex-direction: column;
+
+    @media screen and (min-width: 480px) {
+    align-items: baseline;
+    }
 }
 
 .footer-contacts {
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 480px) {
     margin-right: 70px;
+    }
 }
 
 .footer-socials {
+    margin-bottom: 60px;
+    @media screen and (min-width: 480px) {
     margin-right: auto;
+    }
 }
 
 
