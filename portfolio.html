@@ -80,6 +80,7 @@
             aria-label="Переключатель мобильного меню"
             aria-expanded="false"
             aria-controls="nav-contacts"
+            role="button"
           >
             <use
               class="header__icon-close"
@@ -117,11 +118,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_1.jpg"
-                    alt="Веб-сайт Технокряк"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_1_bg.jpg    1x,
+                        ./images/portfolio_1_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_1_md.jpg    1x,
+                        ./images/portfolio_1_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_1_sm.jpg    1x,
+                        ./images/portfolio_1_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_1_sm.jpg"
+                      alt="Веб-сайт Технокряк"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -137,11 +165,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_2.jpg"
-                    alt="Постер New Orlean vs Golden Star"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_2_bg.jpg    1x,
+                        ./images/portfolio_2_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_2_md.jpg    1x,
+                        ./images/portfolio_2_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_2_sm.jpg    1x,
+                        ./images/portfolio_2_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_2_sm.jpg"
+                      alt="Постер New Orlean vs Golden Star"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description"></p>
                 </div>
                 <div class="portfolios-list__info">
@@ -155,11 +210,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_3.jpg"
-                    alt="Приложение Ресторан Seafood"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_3_bg.jpg    1x,
+                        ./images/portfolio_3_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_3_md.jpg    1x,
+                        ./images/portfolio_3_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_3_sm.jpg    1x,
+                        ./images/portfolio_3_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_3_sm.jpg"
+                      alt="Приложение Ресторан Seafood"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description"></p>
                 </div>
                 <div class="portfolios-list__info">
@@ -171,11 +253,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_4.jpg"
-                    alt="Наушники"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_4_bg.jpg    1x,
+                        ./images/portfolio_4_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_4_md.jpg    1x,
+                        ./images/portfolio_4_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_4_sm.jpg    1x,
+                        ./images/portfolio_4_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_4_sm.jpg"
+                      alt="Наушники"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description"></p>
                 </div>
                 <div class="portfolios-list__info">
@@ -187,11 +296,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_5.jpg"
-                    alt="Две коробки"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_5_bg.jpg    1x,
+                        ./images/portfolio_5_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_5_md.jpg    1x,
+                        ./images/portfolio_5_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_5_sm.jpg    1x,
+                        ./images/portfolio_5_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_5_sm.jpg"
+                      alt="Две коробки"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description"></p>
                 </div>
                 <div class="portfolios-list__info">
@@ -203,11 +339,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_6.jpg"
-                    alt="Веб-сайт Inspiration has no Borders"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_6_bg.jpg    1x,
+                        ./images/portfolio_6_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_6_md.jpg    1x,
+                        ./images/portfolio_6_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_6_sm.jpg    1x,
+                        ./images/portfolio_6_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_6_sm.jpg"
+                      alt="Веб-сайт Inspiration has no Borders"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description"></p>
                 </div>
                 <div class="portfolios-list__info">
@@ -221,11 +384,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_7.jpg"
-                    alt="Издание Limited Edition"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_7_bg.jpg    1x,
+                        ./images/portfolio_7_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_7_md.jpg    1x,
+                        ./images/portfolio_7_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_7_sm.jpg    1x,
+                        ./images/portfolio_7_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_7_sm.jpg"
+                      alt="Издание Limited Edition"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description"></p>
                 </div>
                 <div class="portfolios-list__info">
@@ -239,11 +429,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_8.jpg"
-                    alt="Ярлык LAB"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_8_bg.jpg    1x,
+                        ./images/portfolio_8_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_8_md.jpg    1x,
+                        ./images/portfolio_8_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_8_sm.jpg    1x,
+                        ./images/portfolio_8_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_8_sm.jpg"
+                      alt="Ярлык LAB"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description"></p>
                 </div>
                 <div class="portfolios-list__info">
@@ -255,11 +472,38 @@
             <li class="portfolios-list__item">
               <a class="portfolios-list__link" href="">
                 <div class="portfolios-list__card">
-                  <img
-                    class="portfolios-list__img"
-                    src="./images/portfolio_9.jpg"
-                    alt="Приложение Growing Business"
-                  />
+                  <picture class="portfolios-list__picture">
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/portfolio_9_bg.jpg    1x,
+                        ./images/portfolio_9_bg@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio_9_md.jpg    1x,
+                        ./images/portfolio_9_md@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 479px)"
+                      srcset="
+                        ./images/portfolio_9_sm.jpg    1x,
+                        ./images/portfolio_9_sm@2x.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      class="portfolios-list__img"
+                      src="./images/portfolio_9_sm.jpg"
+                      alt="Приложение Growing Business"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="portfolios-list__description"></p>
                 </div>
                 <div class="portfolios-list__info">
