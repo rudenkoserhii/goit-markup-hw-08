@@ -1,7 +1,7 @@
 .about {
     padding-bottom: $bottoms;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1199px) {
         display: none;
     }
 }
@@ -22,7 +22,8 @@
 gap: 30px;
 }
 
-.about-list__picture {
+.about-list__img {
+    width: 100%;
 }
 
 .about-list__item {

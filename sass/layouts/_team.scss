@@ -3,7 +3,7 @@
     padding-top: $bottoms;
     padding-bottom: $bottoms;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         padding-top: $bottoms-bg;
         padding-bottom: $bottoms-bg;
     }
@@ -19,7 +19,7 @@
 
     margin-bottom: 50px;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         font-size: 36px;
     }
 }
@@ -29,11 +29,11 @@
         margin-left: auto;
         margin-right: auto;
 
-        @media screen and (min-width: 480px) {
+        @media screen and (min-width: 768px) {
             display: flex;
             flex-wrap: wrap;
         }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1200px) {
             flex-wrap: nowrap;
         }
 }
@@ -46,18 +46,21 @@
     border-radius: 0px 0px 4px 4px;
 
 
-    @media screen and (min-width:480px) {
+    @media screen and (min-width:768px) {
             margin-bottom: 0;
             width: calc((100% - 30px) / 2);
 min-width: 206px;
     }
 
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:1200px) {
             width: calc((100% - 90px) / 4);
 min-width: 206px;
     }
 }
 
+.team-list__img {
+width: 100%;
+}
 
 .team-list__persona {
     padding-top: 30px;

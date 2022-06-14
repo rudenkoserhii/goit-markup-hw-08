@@ -15,11 +15,11 @@
     display: flex;
 
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
         width: calc((100% - 60px) / 2);
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         width: calc((100% - 90px) / 3);
     }
 }
@@ -76,9 +76,6 @@ border: $border-set7;
     background-color: $background-portfolio;
 
     transition: transform $timing-function-main;
-
-    @media screen and (max-width: 479px) {
-    }
 }
 
 

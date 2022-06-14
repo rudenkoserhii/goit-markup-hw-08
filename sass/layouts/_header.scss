@@ -1,6 +1,4 @@
 .header__container {
-    position: relative;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,13 +12,13 @@
     margin-left: auto;
     margin-right: auto;
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 767px) {
         height: 80px;
     }
 
-    @media screen and (min-width: 768px) {
-        max-width: 1200px;
-    }
+    // @media screen and (min-width: 1200px) {
+    //     max-width: 1200px;
+    // }
 }
 
 .nav-contacts {
@@ -37,7 +35,7 @@
 
     background-color: $text-white;
 
-    @media screen and (max-width: 479px) {
+    @media screen and (max-width: 767px) {
         padding: 48px 40px;
         height: 100vh;
 
@@ -46,7 +44,7 @@
         }
     }
     
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
         position: static;
 
         flex-direction: row;
@@ -65,11 +63,11 @@
         display: flex;
         flex-direction: column-reverse;
 
-    @media screen and (max-width: 479px) {
+    @media screen and (max-width: 767px) {
         margin-bottom: 64px;
     }
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
         flex-direction: column;
         align-items: flex-start;
         align-items: center;
@@ -77,7 +75,7 @@
         margin-left: 30px;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -107,14 +105,14 @@
         margin-bottom: 0;
     }
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
         &:first-child {
             margin-bottom: 10px;
         }
         margin-bottom: 0;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         margin-bottom: 0;
         &:first-child {
             margin-bottom: 0px;
@@ -128,7 +126,7 @@
 
 
     
-        @media screen and (min-width: 480px) {
+        @media screen and (min-width: 768px) {
             color: $text-main;
             font-size: 14px;
             line-height: 1.14;
@@ -144,7 +142,7 @@
             }
         }
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1200px) {
             font-size: 16px;
             padding-top: 32px;
             padding-bottom: 32px;
@@ -156,17 +154,17 @@
 
 .header-contacts__icon {
 
-    @media screen and (max-width: 479px) {
+    @media screen and (max-width: 767px) {
             display: none;
         }
     
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
         margin-right: 8px;
                     
         fill: currentColor;
     }
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         margin-right: 10px;
     }
         
@@ -189,7 +187,7 @@
         fill: $text-blue;
     }
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
         display: none;
     }
 

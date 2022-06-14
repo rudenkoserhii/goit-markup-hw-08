@@ -39,11 +39,11 @@
     background-color: $background-main;
 
     transition: transform $timing-function-main;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
         top: 208px;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         max-width: 558px;
         
         top: 221px;
@@ -93,7 +93,7 @@
 
     color: $text-secondary;
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         white-space: nowrap;
     }
 }
@@ -235,7 +235,7 @@
 
     color: $text-main;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         font-size: 14px;
         line-height: 1.71;
     }
@@ -294,7 +294,7 @@
     outline-offset: -2px;
 
     transition: background-color $timing-function-main,
-        outline-color $timing-function-main;
+    outline-color $timing-function-main;
 }
 
 

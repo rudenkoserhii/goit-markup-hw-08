@@ -19,20 +19,32 @@
         @media screen and (min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
-                    background-image: url(../images/hero_sm@x2.jpg);
+                    background-image: linear-gradient(to bottom,
+                            rgba(47, 48, 58, 0.4),
+                            rgba(47, 48, 58, 0.4)),
+                            url(../images/hero_sm@x2.jpg);
         }
 
         @media screen and (min-width: 480px) {
-            background-image: url(../images/hero_md.jpg);
+            background-image: linear-gradient(to bottom,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                    url(../images/hero_md.jpg);
 
             @media screen and (min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
-                    background-image: url(../images/hero_md@x2.jpg);
+                    background-image: linear-gradient(to bottom,
+                            rgba(47, 48, 58, 0.4),
+                            rgba(47, 48, 58, 0.4)),
+                            url(../images/hero_md@x2.jpg);
             }
         }
         @media screen and (min-width: 768px) {
-            background-image: url(../images/hero_bg.jpg);
+            background-image: linear-gradient(to bottom,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                    url(../images/hero_bg.jpg);
 
             padding-top: 200px;
             padding-bottom: 200px;
@@ -40,7 +52,10 @@
             @media screen and (min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
-                    background-image: url(../images/hero_bg@x2.jpg);
+                    background-image: linear-gradient(to bottom,
+                            rgba(47, 48, 58, 0.4),
+                            rgba(47, 48, 58, 0.4)),
+                            url(../images/hero_bg@x2.jpg);
             }
         }
 }
@@ -56,7 +71,7 @@
 
     margin-bottom: 30px;
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1200px) {
             font-size: 44px;
         }
 }

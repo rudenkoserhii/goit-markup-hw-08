@@ -2,7 +2,7 @@
     padding-top: $bottoms;
     padding-bottom: $bottoms;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         padding-top: $bottoms-bg;
         padding-bottom: $bottoms-bg;
     }
@@ -18,7 +18,7 @@
 
     margin-bottom: 30px;
     
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
         font-size: 36px;
         margin-bottom: 50px;
     }
@@ -32,7 +32,7 @@
 
     gap: 30px;
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1200px) {
             flex-wrap: nowrap;
         }
 }
@@ -50,11 +50,11 @@
 .clients-list__item {
     width: calc((100% - 30px) / 2);
 
-    @media screen and (min-width:480px) {
+    @media screen and (min-width:768px) {
         width: calc((100% - 60px) / 3);
     }
 
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:1200px) {
         width: calc((100% - 150px) / 6);
     }
 }

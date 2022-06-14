@@ -1,13 +1,13 @@
 .nav {
-    @media screen and (max-width: 479px) {
+    @media screen and (max-width: 767px) {
       margin-bottom: auto;
     }
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       margin-right: auto;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
     }
 }
 
@@ -15,14 +15,14 @@
   display: flex;
   flex-direction: column;
   
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       flex-direction: row;
       align-items: center;
       gap: 50px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .nav__item {
     margin-bottom: 32px;
 
@@ -55,7 +55,7 @@
     transition: color $timing-function-main;
   }
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 768px) {
       font-size: 14px;
       line-height: 1.14;
       
@@ -67,7 +67,7 @@
 .nav__current {
   color: $text-blue;
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     &::after {
       content: "";
 
