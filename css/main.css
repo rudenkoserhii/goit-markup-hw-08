@@ -1042,10 +1042,6 @@ img {
 }
 
 .nav-contacts {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1065,6 +1061,10 @@ img {
 
 @media screen and (max-width: 767px) {
   .nav-contacts {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
     padding: 48px 40px;
     height: 100vh;
     min-height: 590px;
