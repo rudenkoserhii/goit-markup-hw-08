@@ -12,7 +12,7 @@
 
     @media screen and (min-width: 768px) {
         display: flex;
-        flex-wrap: wrap;;
+        flex-wrap: wrap;
         align-items: baseline;
         justify-content: space-around;
     }
@@ -20,6 +20,10 @@
 
 .footer-contacts {
     text-align: center;
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+    }
 
     @media screen and (min-width: 1200px) {
         text-align: left;
@@ -30,6 +34,10 @@
 
 .footer-socials {
     text-align: center;
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+    }
 
     @media screen and (min-width: 1200px) {
         margin-right: auto;

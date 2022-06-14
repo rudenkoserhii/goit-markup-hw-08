@@ -15,20 +15,13 @@
     @media screen and (min-width: 767px) {
         height: 80px;
     }
-
-    // position: relative;
-    
-    // overflow: hidden;
 }
 
 .nav-contacts {
-    position: absolute;
-    top: 0;
-    right: 0;
 
     width: 100%;
 
-z-index: 102;
+    z-index: 102;
 
     display: flex;
     flex-direction: column;
@@ -37,86 +30,24 @@ z-index: 102;
 
     background-color: $text-white;
 
+    transition: transform $timing-function-main;
+
     @media screen and (max-width: 767px) {
+        position: absolute;
+        top: 0;
+        left: -100vw;
+
         padding: 48px 40px;
         height: 100vh;
-.nav-contacts {
-        position: absolute;
-        top: 0;
-        right: 0;
-
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
-
-        background-color: $text-white;
-
-        @media screen and (max-width: 767px) {
-            padding: 48px 40px;
-            height: 100vh;
-.nav-contacts {
-        position: absolute;
-        top: 0;
-        right: 0;
-
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
-
-        background-color: $text-white;
-
-        @media screen and (max-width: 767px) {
-            padding: 48px 40px;
-            height: 100vh;
-            min-height: 590px;
+        width: 100vw;
+        min-height: 590px;
 
             &.is-open {
-                display: none;
+                transform: translateX(100vw);
+                transition: transform $timing-function-main;
             }
-        }
-
-        @media screen and (min-width: 768px) {
-            position: static;
-
-            flex-direction: row;
-            align-items: center;
-
-            width: 100%;
-            height: 100%;
-            margin-left: 90px;
-        }
-
     }
-
-            &.is-open {
-                display: none;
-            }
-        }
-
-        @media screen and (min-width: 768px) {
-            position: static;
-
-            flex-direction: row;
-            align-items: center;
-
-            width: 100%;
-            height: 100%;
-            margin-left: 90px;
-        }
-
-    }
-
-        &.is-open {
-            display: none;
-        }
-    }
-
+    
     @media screen and (min-width: 768px) {
         position: static;
 
