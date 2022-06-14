@@ -10,7 +10,7 @@
         flex-wrap: nowrap;
         justify-content: center;
 
-        margin-bottom: 14px;
+        margin-bottom: 30px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -20,13 +20,18 @@
 
 .btns-list__item {
     margin-right: 8px;
+    margin-bottom: 8px;
 
     &:last-child {
         margin-right: 0;
     }
 
-    @media screen and (max-width: 767px) {
-        margin-bottom: 30px;
+    &:nth-last-of-type(-n+2) {
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
     }
 }
 
