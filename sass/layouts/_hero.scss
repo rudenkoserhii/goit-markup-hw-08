@@ -7,6 +7,7 @@
             rgba(47, 48, 58, 0.4)),
         url(../images/hero_sm.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 
     text-align: center;
 
@@ -25,7 +26,7 @@
                             url(../images/hero_sm@x2.jpg);
         }
 
-        @media screen and (min-width: 480px) {
+        @media screen and (min-width: 768px) {
             background-image: linear-gradient(to bottom,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
@@ -40,7 +41,7 @@
                             url(../images/hero_md@x2.jpg);
             }
         }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1200px) {
             background-image: linear-gradient(to bottom,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
