@@ -14,7 +14,7 @@
 
     background: $background-backdrop;
 
-    z-index: 100;
+    z-index: 105;
 
     visibility: visible;
     opacity: 1;
@@ -37,6 +37,7 @@
     padding: 40px;
 
     background-color: $background-main;
+
 
     transition: transform $timing-function-main;
     @media screen and (min-width: 768px) {
