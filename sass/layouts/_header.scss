@@ -35,6 +35,8 @@
 
     background-color: $text-white;
 
+    z-index: 101;
+
     @media screen and (max-width: 767px) {
         padding: 48px 40px;
         height: 100vh;
@@ -180,7 +182,7 @@
 
     color: $text-secondary;
 
-    z-index: 100;
+    z-index: 102;
 
     &:hover,
     &:focus {

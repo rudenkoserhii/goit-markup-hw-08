@@ -1061,6 +1061,7 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #ffffff;
+  z-index: 101;
 }
 
 @media screen and (max-width: 767px) {
@@ -1232,7 +1233,7 @@ img {
   margin: 0;
   border: none;
   color: #212121;
-  z-index: 100;
+  z-index: 102;
 }
 
 .header__btn-menu:hover, .header__btn-menu:focus {
