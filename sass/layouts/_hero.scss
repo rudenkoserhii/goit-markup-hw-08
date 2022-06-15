@@ -18,7 +18,7 @@
     padding-top: 118px;
     padding-bottom: 118px;
 
-        @media screen and (min-device-pixel-ratio: 2),
+        @media screen and (-webkit-min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
                     background-image: linear-gradient(to bottom,
@@ -33,7 +33,7 @@
                     rgba(47, 48, 58, 0.4)),
                     url(../images/hero_md.jpg);
 
-            @media screen and (min-device-pixel-ratio: 2),
+            @media screen and (-webkit-min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
                     background-image: linear-gradient(to bottom,
@@ -51,7 +51,7 @@
             padding-top: 200px;
             padding-bottom: 200px;
             
-            @media screen and (min-device-pixel-ratio: 2),
+            @media screen and (-webkit-min-device-pixel-ratio: 2),
                 screen and (min-resolution: 192dpi),
                 screen and (min-resolution: 2dppx) {
                     background-image: linear-gradient(to bottom,
