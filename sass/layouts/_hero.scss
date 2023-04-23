@@ -2,9 +2,11 @@
 
 
     background-color: $background-footer;
-    background-image: linear-gradient(to bottom,
+    background-image: linear-gradient(
+            to bottom,
             rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)),
+            rgba(47, 48, 58, 0.4)
+    ),
         url(../images/hero_sm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
